@@ -15,4 +15,6 @@
 .emacs.d/.*
 .emacs.d/elpa/*.txt
 .emacs.d/url
+.emacs.d/tramp
+.emacs.d/breadcrumb
 .Rh*
