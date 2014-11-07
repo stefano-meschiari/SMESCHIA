@@ -1,0 +1,191 @@
+
+
+
+
+
+
+
+
+* M-x gives access to the minibuffer, where you can enter a command "long form".
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* M-g can be used to get out of the minibuffer, or quit an action.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* M-x help-with-tutorial opens a handy tutorial for Emacs. You should learn basic cursor movements and selections.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* You can split your screen into multiple windows:
+- Ctrl-x 2 splits vertically.
+- Ctrl-x 3 splits horizontally.
+- Ctrl-x 1 maximizes the current window.
+- Shift + Arrows to move between windows
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* Each window can contain a different buffer.
+
+* Ctrl-x k closes a buffer.
+* Ctrl-x b shows a list of open buffers.
+
+
+
+
+
+
+
+
+
+
+* You can probably find the correct command by using M+x.
+* If there is a keystroke bound to a command, Ctrl-h f will show it.
+
+
+
+
+
+
+
+
+
+
+
+* In my customized version of Emacs, most keystrokes you use throughout Mac OS X work the same way.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+COOL STUFF!
+
+
+
+
+
+
+
+
+
+
+
+
+Edit remote files through TRAMP. It transparently uses SSH to open & save files.
+
+Type /ssh:user@server:/your/path/to/file
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Org-mode -- a mode for creating notes, to-do lists, documents, and agendas. Created in 2003 by astronomer Carsten Dominick. THIS IS AWESOME!!
+
+Create a new org file using Ctrl-x Ctrl-f
+
+
+
