@@ -1,0 +1,15 @@
+* Hello!
+** Why isn't this nice?
+*** It's an outline mode!
+I just want to write and write and write.
+
+It's just so much fun.
+
+But isn't it funner with MATH?
+
+Inline LaTeX math: Q = c_{s}\Omega / \pi{}G\Sigma.
+\int_x^2 x^2 dx = 300
+
+* Do this.
+* DONE Do that.
+* TODO Do what?

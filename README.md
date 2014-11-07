@@ -15,3 +15,19 @@ have (that would be `~/.emacs` and/or `~/.emacs.d`)
 http://emacsformacosx.com.
 
 (5) Enjoy!
+
+## Using emacs from the command line ##
+Add this to your ~/.bash_profile or ~/.bashrc:
+
+    alias emacsclient=/Applications/Emacs.app/Contents/MacOS/bin/emacsclient
+    
+    function emacs_open {
+        open -a Emacs
+
+        while [ `emacsclient -n $1 2>&1 | grep socket | wc -l` -gt 0 ]; do
+            sleep 1
+        done
+    }
+    export EDITOR=emacs_wait
+    alias emacs=emacs_open
+
