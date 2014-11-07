@@ -28,6 +28,6 @@ Add this to your ~/.bash_profile or ~/.bashrc:
             sleep 1
         done
     }
-    export EDITOR=emacs_wait
+    export EDITOR=emacs_open
     alias emacs=emacs_open
 
