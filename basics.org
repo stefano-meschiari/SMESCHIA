@@ -1,0 +1,65 @@
+* Learning the basics
+** Basic commands
+- M-x gives you access to the minibuffer (the line at the bottom of the screen), you can enter a command in long form. Commands and paths can always be TAB-completed in the minibuffer.
+- C-g can always be used to cancel an action or exit the minibuffer.
+- M-x help-with-tutorial opens a handy tutorial for Emacs. There, you can learn basic cursor movements and selections. The tutorial says that you should not be using arrow keys, but I use them liberally.
+
+** Creating and moving between windows
+- C-x 2 splits vertically.
+- C-x 3 splits horizontally.
+- C-x 1 maximizes the current window.
+- Shift + Arrows lets you move quickly among windows.
+
+** Keystrokes: if you're using my customized version of Emacs, a lot of actions have alternative keystrokes that are similar to the ones commonly used in Mac applications.
+- Command+o or C-x C-f opens a file (created if doesn't exist)
+- Command+s or C-x C-s saves a file
+- Command+Shift+s or C-x C-w saves a file with a different name (save as)
+- Command+f or C-s finds text interactively
+- M-g g goes to a numbered line.
+- Command+n creates a new file with the given extension.
+- Command+Z and Command+Shift+Z for undo/redo; M-x undo-tree-visualize will show you a tree of all your edits.
+
+** Buffers
+- Each window can contain a different buffer, or views of the same buffer can be shown in multiple windows.
+- C-x k closes a buffer.
+- C-x b shows a list of open buffers. 
+- Move among buffers within a window with Command+[ and Command+]
+
+** Finding help
+- You can probably figure out the correct command to do something complex by using M-x and typing.
+- If there is a keystroke bound to a command, C-h f will show it.
+- If you don't know what a keystroke does, use C-h k.
+
+** Running shell commands
+- You can run a shell command in the current folder using M-!.
+- You can open an entire terminal with M-x multi-term.
+
+** Customizing Emacs
+- You can customize anything using M-x customize
+- You can install new packages using M-x list-packages
+
+* Cool stuff!
+** Obviously, games.
+- M-x tetris
+- M-x doctor
+
+** Edit remote files through TRAMP. It transparently uses SSH to open & save files.
+- Type /ssh:user@server:/your/path/to/file
+
+** Org-mode -- a mode for creating notes, to-do lists, documents, and agendas. Created in 2003 by astronomer Carsten Dominick. THIS IS AWESOME! This file is written using org-mode.
+- To get started, open or create a new file with extension .org and org-mode will start automatically (you can edit this file if you want!)
+- You can have multiple-level outlines like this document, that are correctly indented.
+- You can type TeX symbols to write out equations quickly, like this:
+
+\int_0^x \sigma(\theta) d\theta = x sin(x^2) 
+
+- The above includes superscripts and subscripts (use {} for long sub/superscripts)
+- Super handy for taking notes at a seminar!
+- You can export an org-mode file to PDF or HTML using M-x org-latex-export-to-pdf and M-x org-html-export-to-html.
+- You can use it for awesome todo-lists, like this:
+*** Get eggs
+*** TODO Get milk 
+*** DONE Do all the research
+
+
+ 
