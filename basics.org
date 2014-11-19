@@ -14,6 +14,7 @@ Download this file and open it in Emacs!
 
 ** Keystrokes: if you're using my customized version of Emacs, a lot of actions have alternative keystrokes that are similar to the ones commonly used in Mac applications.
 - Command+o or C-x C-f opens a file (created if doesn't exist)
+- C-x f shows a list of recently opened files.
 - Command+s or C-x C-s saves a file
 - Command+Shift+s or C-x C-w saves a file with a different name (save as)
 - Command+f or C-s finds text interactively
