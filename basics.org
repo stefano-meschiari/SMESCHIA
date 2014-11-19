@@ -1,3 +1,5 @@
+Download this file and open it in Emacs!
+
 * Learning the basics
 ** Basic commands
 - M-x gives you access to the minibuffer (the line at the bottom of the screen), you can enter a command in long form. Commands and paths can always be TAB-completed in the minibuffer.
